@@ -1,0 +1,25 @@
+{
+  "name": "shapeextrusion",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^7.17.2",
+    "@babylonjs/inspector": "^7.17.2",
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "babylonjs": "^7.17.2",
+    "babylonjs-gui": "^7.17.2",
+    "earcut": "^3.0.0"
+  }
+}
